@@ -1,4 +1,4 @@
-module.export = function () {
+module.exports = function () {
     return {
         product: [
             {
@@ -37,6 +37,7 @@ module.export = function () {
                 id: 9, name: "Błyszczący król", category: "Szachy",
                 description: "Pokryty złotem i wysachony diamentami król.", price: 1200
             },
-        ]
+        ],
+        orders: []
     }
 }
